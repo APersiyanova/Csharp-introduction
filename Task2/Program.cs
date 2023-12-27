@@ -18,3 +18,9 @@ double product3 = d * i1;
 Console.WriteLine(product1);
 Console.WriteLine(product2);
 Console.WriteLine(product3);
+
+int ratio = i1 / i2;
+Console.WriteLine(ratio);
+
+double relation = i1/d;
+Console.WriteLine(relation);

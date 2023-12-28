@@ -13,6 +13,7 @@ TaskHW1 Домашнее задание Простые вычисления
 Task3 Знакомство с if. Сравнение веса 2 гирь  <br>
 Task4 if. Самая тяжелая из 5 гирь <br>
 Task5 Вывод чисел от 1 до N <br>
+Practice1 Практика на 1 семинаре
 -----------------------------
 ln -s /usr/local/share/dotnet/dotnet/ /usr/local/bin<br>
 brew install dotnet<br>

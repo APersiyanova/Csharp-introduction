@@ -22,13 +22,21 @@ for (i = 0; i < arrTask1.Length; i++)
     arrTask1[i] = i + 1;
     Console.Write($"{arrTask1[i]} "); // Вывести элементы массива на экран.
 }
+// 
+Console.WriteLine();
+foreach (int e in arrTask1){
+    Console.Write($" -{e}- ");
+}
+
 // Вывести четные элементы массива на экран.
+// Элементы с четными порядковыми номерами 0 - 2 - 4 - 6 - 8 - 10
 Console.WriteLine();
 for (i = 0; i < arrTask1.Length; i=i+2)
 {
     Console.Write($"{arrTask1[i]} ");
 }
 
+// Элементы с четными значениями
 Console.WriteLine();
 Random r = new Random();
 for (i = 0; i < arrTask1.Length; i++)
@@ -36,6 +44,6 @@ for (i = 0; i < arrTask1.Length; i++)
     arrTask1[i]=r.Next(0,100);
     if (arrTask1[i] % 2 == 0)
     {
-        Console.Write($"{i} - {arrTask1[i]} ");
+        Console.Write($"{i} - {arrTask1[i]};");
     }
 }
